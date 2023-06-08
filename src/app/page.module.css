@@ -1,0 +1,82 @@
+.homeContainer {
+  min-height: 100vh;
+}
+
+.bannerSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 128px;
+}
+
+.bannerSectionLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bannerSectionLeftTitle {
+  font-size: 84px;
+  font-weight: bold;
+  color: #00c39a;
+}
+
+.bannerSectionLeftDesc {
+  max-width: 320px;
+  font-size: 24px;
+  color: #00c39a;
+}
+
+.pilaresContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.pilarContainer {
+  height: 204px;
+  width: 65vw;
+  background-color: #00c39a;
+  display: flex;
+  border-top-right-radius: 204px;
+  border-bottom-right-radius: 204px;
+}
+
+.pilarContainer:nth-child(1),
+.pilarContainer:nth-child(3) {
+  flex-direction: row;
+}
+
+.pilarContainer:nth-child(2) {
+  flex-direction: row-reverse;
+  border-top-left-radius: 204px;
+  border-bottom-left-radius: 204px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  align-self: flex-end;
+}
+
+.pilarContainer:nth-child(2) .pilarText {
+  text-align: right;
+}
+
+.pilarText {
+  flex: 1;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f0f0f0;
+  padding: 54px 64px;
+}
+
+.pilarLugar {
+  width: 204px;
+  height: 204px;
+  border: 10px solid #14161a;
+  border-radius: 204px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #14161a;
+}
